@@ -96,7 +96,7 @@ class _MyWeatherState extends State<MyWeather> {
                         children:  [
                           //For the temperature
                           ListTile(
-                            leading: FaIcon(FontAwesomeIcons.thermometer),
+                            leading: FaIcon(FontAwesomeIcons.temperatureHalf),
                             title: Text('Temperature is:'),
                             trailing: Text(temp != null? temp + "°F": "loading"),
 
