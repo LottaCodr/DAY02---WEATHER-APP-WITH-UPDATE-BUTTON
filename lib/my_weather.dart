@@ -19,7 +19,7 @@ class _MyWeatherState extends State<MyWeather> {
     //print(data['temperature']);
 
     setState(() {
-      temp = data['temperature'].toString();
+      temp = data['timelines']['minutely'][0]['values']['temperature'].toString();
     });
 
   }
